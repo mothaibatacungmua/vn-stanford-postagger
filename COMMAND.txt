@@ -1,0 +1,8 @@
+# Train
+java -classpath vn-stanford-postagger.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -prop vn-model/custom-train.props
+
+# Test
+java -classpath vn-stanford-postagger.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -model vn-model/vietnamese-custom.tagger -testFile data/test-fixed-3k.pos
+
+# GUI
+java -classpath vn-stanford-postagger.jar:jvntextpro.jar edu.stanford.nlp.tagger.maxent.MaxentTaggerGUI folds/fold2/fold2.tagger

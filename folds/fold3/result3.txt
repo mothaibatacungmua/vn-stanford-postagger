@@ -1,0 +1,6 @@
+Tagged 63373 words at 17434.11 words per second.
+Model folds/fold3/fold3.tagger has xSize=538383, ySize=32, and numFeatures=489817.
+Results on 2787 sentences and 63373 words, of which 1165 were unknown.
+Total sentences right: 1044 (37.459634%); wrong: 1743 (62.540366%).
+Total tags right: 59845 (94.432960%); wrong: 3528 (5.567040%).
+Unknown words right: 945 (81.115880%); wrong: 220 (18.884120%).
