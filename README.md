@@ -2,7 +2,7 @@
 
 This is a part-of-speech tagging tool for vietnamese text. The development of this tool depends on  the open source implementation of [Stanford Log-linear Part-Of-Speech Tagger](http://nlp.stanford.edu/software/tagger.shtml).
 
-We use [JVnTextPro](http://jvntextpro.sourceforge.net/) for text preprocessing task including sentence segmentation, sentence tokenization and word segmentation.
+We use [JVnTextPro](http://jvntextpro.sourceforge.net/) for text preprocessing tasks including sentence and word segmentation.
 
 #### Experiments<br/>
 The models are trained and tested on the part-of-speech tagged section of the Vietnamese treebank (~27000 sentences). The treebank's sentences are manually segmented and tagged.<br/>
